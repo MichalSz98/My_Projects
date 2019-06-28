@@ -1,2 +1,2 @@
 # Projects
-My individual projects
+My individual projects from Java, C#, PHP, Javascript programming.
