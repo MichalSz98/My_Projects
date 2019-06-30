@@ -1,3 +1,3 @@
 Moje projekty z Javy:
 
-1. Program s≈Çu≈ºacy do szukania najkr√≥tszego cyklu w grafie skierowanym.
+1. Program s≥uøπcy do szukania najkrÛtszego cyklu w grafie skierowanym.
