@@ -1,0 +1,65 @@
+html,body
+{
+	background-color: #1693A5;
+	font-family: "Arial";
+	color: #F4FFF9;
+}
+.main
+{
+	background-color: #04CAED;
+	width: 24em;
+	height: 18.2em;
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2%;
+    border-style: groove;
+}
+#login
+{
+margin-left: 27%;
+}
+#login2
+{
+ 	text-align: center;
+}
+#haslo
+{
+margin-left: 27%;
+}
+#haslo2
+{
+ 	text-align: center;
+}
+.content
+{
+
+	zoom: 1.1;
+
+	margin-top: 10%;
+	line-height: 2;
+  	vertical-align: middle;
+}
+.button
+{
+	    margin-left: 27%;
+	    font-size: 1em;
+	    margin-top: 3px;
+	    width: 165px;
+	    height: 30px;
+	    border-radius: 7%;
+	    background-color: #C6FFE9;
+	    color: #010F21;
+}
+.button:hover
+{
+	background-color: #010F21;
+	color: #F4FFF9;
+}
+.txt
+{
+	border-radius: 8%;
+	background-color: #F4FFF9;
+}

@@ -1,0 +1,49 @@
+html,body
+{
+	margin-left: 9px;
+	margin-top: 5.5px;
+	margin-right: 3px;
+}
+.divmain
+{
+	float:left;
+	width: 20%;
+}
+.deleteBtn
+{
+	float: left;
+	margin-right: 5px;
+}
+.imie
+{
+	float: left;
+	width: 50%;
+}
+.nazwisko
+{
+	width: 50%;
+	float: left;
+}
+.imie2
+{
+	float: left;
+	width: 9.8%;
+}
+.nazwisko2
+{
+	float: left;
+	width: 9.85%;
+}
+.MainAll
+{
+	width: 100%;
+}
+.imieZero
+{
+	float:left;
+	width: 10%;
+}
+.nazwiskoZero
+{
+	width: 20%;
+}
