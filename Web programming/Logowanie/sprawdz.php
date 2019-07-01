@@ -13,17 +13,7 @@
 						session_start();
 						if ((isset($_POST["login"]) && !empty($_POST["login"])) && (isset($_POST["haslo"]) && !empty($_POST["haslo"])))
     					{
-    						if ($_POST["login"]==="github" && $_POST["haslo"]==="github")
-    						{
-									$_SESSION['czy_zalogowany2'] = 1;
-									$_SESSION['start2'] = time();
-									$_SESSION['czas2'] = $_SESSION['start2'] + (1 * 60);
-									header("Location: ../index.php");
-    						}
-    						else
-    							{
-    								echo "Nieprawidłowy login lub hasło! <br/><br/><a href='http://test1234.hmcloud.pl/Projekt1/index.php'>POWRÓT</a>";
-    							}
+						require '../../../.htpasswd/LoginPasswordAccess.php';
     					}
 					?>
 				</div>

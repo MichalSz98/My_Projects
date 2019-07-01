@@ -13,6 +13,4 @@
     mysqli_close($connection);
     
     header("Location: http://test1234.hmcloud.pl/Projekt8/index.php");
-
-   	session_destroy();
 ?>

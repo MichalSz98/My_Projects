@@ -6,22 +6,22 @@
 		<link rel = "Stylesheet" href = "style.css" type = "text/css"/>
 		<link rel = "Stylesheet" href = "AnimatedCalculator/style.css" type = "text/css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<?php require 'Logowanie/plik.php';?>
 	<title>Projekt</title>
 </head>
 	<body>
 
 		<!--DATABASE PART-->
-		
-			<div class='imieZero'>Imię</div>
-			<div class ='nazwiskoZero'>Nazwisko</div>
+			
+			<div style='display:inline' class='imieZero'>Imię</div>
+			<div style='display:inline'  class ='nazwiskoZero'>Nazwisko</div>	
+
 
 		<?php
-
-			require 'Logowanie/plik.php';	
 			
 			session_start();
 				
-			require '../../.htpasswd/access.php';
+			require '../../.htpasswd/DataBaseAccess.php';
 		
 			$selectQuery = "select Id,Imie,Nazwisko from ".$dbName."";
 
@@ -210,12 +210,13 @@
 	</div>
 
 		<div class = "end">
-		<br/><a href="http://test1234.hmcloud.pl/Projekt1/index.php">Wyloguj</a>
+		<br/><a href="http://test1234.hmcloud.pl/Projekt8/Logowanie/loguj.html">Wyloguj</a>
 	<p>
 		<a href="http://validator.w3.org/check?uri=referer"><img
 		src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
      </p>
-		</div>
+		</div>	
+	
+</body>
 
-	</body>
 </html>

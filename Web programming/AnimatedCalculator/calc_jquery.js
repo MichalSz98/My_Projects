@@ -1,7 +1,6 @@
 	var calc = "#calculator",wysunBtn = "#wysun";
 	
 	$(document).ready(function(){
-   
     $(".but").click(function(){
   	$(this).fadeOut(50);
   	$(this).fadeIn(200);
