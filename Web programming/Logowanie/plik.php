@@ -13,7 +13,7 @@
 		 	{		
 		 		$_SESSION['redirectURL'] = $_SERVER['REQUEST_URI'];
 				echo $_SERVER['REQUEST_URI'];
-		 		header("Location: Logowanie/loguj.html");
+		 		header("Location: Logowanie/loguj.php");
 		 	}
 		 	
 		?>
