@@ -1,5 +1,5 @@
 # My C# projects:
 
-1. Tic Tac Toe Multiplayer MVC.
+1. TicTacToe Multiplayer MVC.
 
 
