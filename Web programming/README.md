@@ -7,5 +7,5 @@ http://test1234.hmcloud.pl/Projekt8/index.php
 
 Login: github
 
-Hasło: github
+Password: github
 
