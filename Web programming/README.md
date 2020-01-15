@@ -1,6 +1,6 @@
-# Moje projekty z PHP:
+# My PHP projects:
 
-1. Dodawanie, edycja, usuwanie osób w bazie danych wraz z logowaniem i animowanym kalkulatorem.
+1. Add, edit, delete people in the database with login and animated calculator.
 
 Link:
 http://test1234.hmcloud.pl/Projekt8/index.php
