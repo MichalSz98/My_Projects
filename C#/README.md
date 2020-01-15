@@ -1,6 +1,5 @@
-# Moje projekty z C#:
+# My C# projects:
 
-1. System kadrowo płacowy do obsługi pracowników.
- (Program z obsługą bazy danych)
+1. PTic Tac Toe Multiplayer MVC.
 
 
