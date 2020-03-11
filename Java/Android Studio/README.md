@@ -2,6 +2,6 @@
 
 1. Dijkstra algorithm (Find shortest path).
 
-![](dijkstra.gif)
+![](dijkstra_presentation.gif)
 
 
