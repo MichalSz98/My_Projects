@@ -1,6 +1,6 @@
 # My Spring projects:
 
-1. Todo List:
+1. ToDo List:
  
 ![](Web_project_presentation.gif)
 
